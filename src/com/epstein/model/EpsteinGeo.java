@@ -166,10 +166,8 @@ public class EpsteinGeo extends SimState{
     
     private void addDistricts(){
 	   	Bag districtsB = initDistricts.getGeometries();
-	   	System.out.println(districtsB.numObjs);
 	   	for(Object o : districtsB){   		
 	   		MasonGeometry mgDistrict = (MasonGeometry)o;
-	   		System.out.println(mgDistrict.getUserData());
 	   		District d = new District(mgDistrict.geometry, globalLegitimacy, initIncrease, initDecrease, allResults);
 	   		MasonGeometry mg = new MasonGeometry(d.getGeometry(), d);
 	   		d.masonGeometry = mg;
@@ -188,7 +186,7 @@ public class EpsteinGeo extends SimState{
     	try{
 	   	   	// We want to save the MBR so that we can ensure that all GeomFields
     		// cover identical area.
-    	   	System.out.println("reading districts layer");
+    	   	//System.out.println("reading districts layer");
   	   	
     	   	initDistricts.clear();
     	   	//URL districtsURL = new URL("data/iran/IRN_adm1.shp");
@@ -201,7 +199,7 @@ public class EpsteinGeo extends SimState{
     	 	Envelope MBR = districts.getMBR();
             //MBR.expandToInclude(districts2.getMBR());
            
-    	 	System.out.println("reading roads layer");
+    	 	//System.out.println("reading roads layer");
     	 	
     	 	//URL roadsURL = new URL("data/iran/IRN_roads.shp");
     	   	//ShapeFileImporter.read(roadsURL, roads);
@@ -211,7 +209,7 @@ public class EpsteinGeo extends SimState{
     	 	//Envelope MBR = roads.getMBR();
     	 	MBR.expandToInclude(roads.getMBR());
            
-            System.out.println("Done reading data");
+            //System.out.println("Done reading data");
            
             // Now synchronize the MBR for all GeomFields to ensure they cover the same area
             districts.setMBR(MBR);

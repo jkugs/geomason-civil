@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<net.refractions.udig.project.internal:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:net.refractions.udig.project.internal="http:///net/refractions/udig/project/internal.ecore" name="Iraq2">
-  <elementsInternal xsi:type="net.refractions.udig.project.internal:Map" href="file://C:\Documents and Settings\jtyates\My Documents\Shapefiles - Iraq\DIVA GIS\Iraq2.udig\\Map2.umap#/"/>
-  <elementsInternal xsi:type="net.refractions.udig.project.internal:Map" href="file://C:\Documents and Settings\jtyates\My Documents\Shapefiles - Iraq\DIVA GIS\Iraq2.udig\\Map_21.umap#/"/>
-  <elementsInternal xsi:type="net.refractions.udig.project.internal:Map" href="file://C:\Documents and Settings\jtyates\My Documents\Shapefiles - Iraq\DIVA GIS\Iraq2.udig\\Map_31.umap#/"/>
-  <elementsInternal xsi:type="net.refractions.udig.project.internal:Map" href="file://C:\Documents and Settings\jtyates\My Documents\Shapefiles - Iraq\DIVA GIS\Iraq2.udig\\Map_41.umap#/"/>
-  <elementsInternal xsi:type="net.refractions.udig.project.internal:Map" href="file://C:\Documents and Settings\jtyates\My Documents\Shapefiles - Iraq\DIVA GIS\Iraq2.udig\\Map_51.umap#/"/>
-  <elementsInternal xsi:type="net.refractions.udig.project.internal:Map" href="file://C:\Documents and Settings\jtyates\My Documents\Shapefiles - Iraq\DIVA GIS\Iraq2.udig\\Map_61.umap#/"/>
-</net.refractions.udig.project.internal:Project>
