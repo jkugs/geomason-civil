@@ -1,4 +1,4 @@
-GeoMASON-EpsteinModel
+An agent-based computational model of civil violence using GeoMASON
 =====================
 
 This is an agent based model that simulates civil uprisings based on Joshua Epstein's mathematical model of civil uprisings.
